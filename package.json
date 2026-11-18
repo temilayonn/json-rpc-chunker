@@ -1,0 +1,14 @@
+{
+  "name": "json-rpc-chunker",
+  "version": "1.0.0",
+  "description": "Chunk large JSON-RPC responses into stdio-safe frames and reassemble them on the receiving side.",
+  "main": "lib/index.js",
+  "files": ["lib/", "README.md"],
+  "keywords": ["json-rpc", "chunk", "stdio", "mcp", "frame", "large-payload"],
+  "license": "MIT",
+  "engines": { "node": ">=16" },
+  "scripts": {
+    "prepare": "node scripts/setup.js",
+    "test": "node test/run.js"
+  }
+}
